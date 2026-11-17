@@ -96,16 +96,3 @@ class Student:
         return f'Students:{self.students} and Total:{Student.number_of_students}'
     
 
-first_name = input('Enter your first name:')
-last_name = input('Enter your last name:')
-age= int(input('Enter your age:'))
-ID_number= input('Enter your ID number:')
-email_address= input('Enter your email address:')
-
-student1= Student(first_name,last_name,age,ID_number,email_address)
-student1.register_student(first_name,last_name,age,ID_number,email_address)
-print(student1)
-
-student2= Student(first_name,last_name,age,ID_number,email_address)
-student2.register_student(first_name,last_name,age,ID_number,email_address)
-print(student2)
